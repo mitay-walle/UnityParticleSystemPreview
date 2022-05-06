@@ -1,10 +1,11 @@
 # Unity ParticleSystem Prefab Preview
 Forked from: https://github.com/akof1314/UnityParticleSystemPreview
+AssetStore address: https://www.assetstore.unity3d.com/cn/#!/content/73346
 
 changes:
 - converted to UPM package
 - Auto play saved between select different prefabs 
-## reason
+## Reason
 After using Unity to complete the particle effect prefab, save it to the unified effect directory of the project. When you need to use it, select the corresponding particle effect prefab. When there are more and more special effects prefabs, it will become more and more difficult to tell which one is really needed, and Unity does not provide the function of previewing resources like AnimationClip, which can only be dragged into the scene one by one. Going to preview playback is very time-consuming and laborious.
 
 ## Target
@@ -12,7 +13,7 @@ Implements the ability to preview particles directly in the inspector like model
 
 ![](http://img.blog.csdn.net/20161031204154560)
 
-## solve
+## Solve
 The final effect of the particle effect preview is similar to the model action animation preview. First, replace the FBX model with particle objects, and then realize that it can be played in the preview window.
 
 ![](http://img.blog.csdn.net/20161031204228633)
@@ -35,6 +36,3 @@ The button PS (Show particle system preview) can switch between the original pre
 
 ## Conclusion
 The Unity editor provides flexible extension methods, but many of them are undocumented. It is necessary to study how it is used to facilitate porting and extension. The simulation playback method of particle effects, if you want the particles to be playable without selecting the particle object, then the only way is to lock the particles.
-
-## source code
-AssetStore address: https://www.assetstore.unity3d.com/cn/#!/content/73346
