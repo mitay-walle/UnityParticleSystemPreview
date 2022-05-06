@@ -1,4 +1,5 @@
 # Unity ParticleSystem Prefab Preview
+converted to UPM package
 ## reason
 After using Unity to complete the particle effect prefab, save it to the unified effect directory of the project. When you need to use it, select the corresponding particle effect prefab. When there are more and more special effects prefabs, it will become more and more difficult to tell which one is really needed, and Unity does not provide the function of previewing resources like AnimationClip, which can only be dragged into the scene one by one. Going to preview playback is very time-consuming and laborious.
 
@@ -34,4 +35,4 @@ The Unity editor provides flexible extension methods, but many of them are undoc
 ## source code
 AssetStore address: https://www.assetstore.unity3d.com/cn/#!/content/73346
 
-Github address: https://github.com/akof1314/UnityParticleSystemPreview
+Forked from: https://github.com/akof1314/UnityParticleSystemPreview
